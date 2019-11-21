@@ -1,0 +1,169 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*Top Header*/
+.Top
+{
+    position: fixed;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+  border: 0.5px inset black;  
+  background-color: blue;
+  background-image: linear-gradient(blue,white);
+}
+.logo
+{
+    width: 30%;
+    height:100px;
+    
+}
+/*Top right side menu*/
+.Register{
+    height: 100px;
+    margin-top:-120px;
+	list-style-type: none;
+       
+}
+.Registermenu{
+        float: right;        
+        width: 12%;
+}
+.Registermenu a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+.Registermenu a:hover {
+    color:wheat;
+    font-size: 22px;
+}
+.Registermenu1{
+        float: right;
+        width: 8%;
+}
+.Registermenu1 a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.Registermenu1 a:hover{
+    color:wheat;
+    font-size: 22px;
+}
+.Registermenu2{
+        float: right;
+        width: 12%;
+}
+.Registermenu2 a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.Registermenu2 a:hover{
+    color:wheat;
+    font-size: 22px;
+}
+.Registermenu3 a{
+    width: 10%;
+    display:block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color:whitesmoke;
+    float:right;
+    font-size: 20px;
+}
+
+.Registermenu3 a:hover{
+    color:wheat;
+    font-size: 22px;
+}
+.pagesmenu{
+    position:fixed;
+    width: 60%;
+    margin-left: 40%;
+    height:50px;
+    z-index: 1;
+    background-color: black;
+    margin-top:80px;
+}
+.topmenus{
+    height: 100px;
+	list-style-type: none;
+        margin-top: 0px;
+}
+.topmenu{
+        float: left;  
+        width: 20%;
+}
+.topmenu a {
+    display: block;
+    padding:  3px 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 23px;
+}
+.topmenu a:hover {
+    color:wheat;
+    font-size: 28px;
+}
+
+.airoplan{
+    position:absolute;
+    top:140px;
+    width: 100%;
+    height:100px;
+    margin-top:150px;
+}
+
+.firsttitle{
+    position:absolute;
+    width: 20%;
+    height: 50px;
+    color:violet;
+    padding-left:5%;
+    margin-top:150px;
+}
+.aboutusdetail{
+    position: absolute;
+    width:100%;
+    height:auto;
+}
+.detail{
+    position:absolute;
+    width:70%;
+    margin-left: 5%;
+    height:530px;
+    margin-top: 250px;
+    border:1px solid gray;
+}
+.detail pre
+{
+    font-size: 25px;
+}
+.rightcon{
+    position:absolute;
+    border: 1px solid gray;
+    height:530px;
+    width:20%;
+    margin-left: 76%;
+    margin-top:250px;
+}
+.rightcon pre
+{
+    font-size: 25px;
+}
+footer
+{
+    margin-top:830px;
+}
