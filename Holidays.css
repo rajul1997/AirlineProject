@@ -1,0 +1,161 @@
+
+.content{
+    width: 100%;
+    height:auto;
+    background-color: black;
+}
+.holiday1
+{
+    height:450px;
+    width: 100%;
+    border:solid white;
+    
+}
+.insideholiday
+{
+    height: 300px;
+    width: 20%;
+    border-radius: 10px;
+    border: solid;
+    margin-left: 50px;
+    float:left;
+    z-index: 2;
+    
+}
+.insideholiday1
+{
+    height: 300px;
+    width: 20%;
+    border-radius: 10px;
+    border: solid;
+    margin-left: 60px;
+    float:left;
+    
+}
+.insideholiday2
+{
+    height: 300px;
+    width: 20%;
+    border-radius: 10px;
+    border: solid;
+    margin-left:60px;
+    float: left;
+    
+}
+.insideholiday3
+{
+    height: 300px;
+    width: 20%;
+    border-radius: 10px;
+    border: solid;
+    margin-left:3%;
+    float:left;
+    
+}
+.insideholiday4
+{
+    height: 300px;
+    width: 20%;
+    border-radius: 10px;
+    border: solid;
+    margin-left: 60px;
+    
+    float:left;
+    
+}
+.holiday2
+{
+    color:wheat;
+     width: 100%;
+  height: 540px;
+  display: flex;
+  overflow-x: auto;
+  border:1px inset white;
+}
+.insideholiday5
+{width:20%;
+  flex-shrink: 0;
+  color:white;
+    border-radius:10px;
+    overflow: hidden;
+    margin-top: 30px;
+    height: 470px;
+    border-radius: 10px;
+    margin-left: 50px;
+    float:left;
+    border:1px inset white; 
+}
+
+.holiday3
+{
+    color:wheat;
+    height:540px;
+    width: 100%;
+    
+  display: flex;
+  overflow-x: auto;
+     border:1px inset white;
+}
+.insideholiday6
+{width:20%;
+  flex-shrink: 0;
+  color:white;
+    border-radius:10px;
+    overflow: hidden;
+    margin-top: 30px;
+    height: 470px;
+    border-radius: 10px;
+    margin-left: 50px;
+    float:left;
+    border:1px inset white;
+}
+
+.holiday4
+{
+    color:wheat;
+    height:540px;
+    width: 100%;
+    
+  display: flex;
+  overflow-x: auto;
+     border:1px inset white;
+}
+.insideholiday7
+{width:20%;
+  flex-shrink: 0;
+  color:white;
+    border-radius:10px;
+    overflow: hidden;
+    margin-top: 30px;
+    height: 470px;
+    border-radius: 10px;
+    margin-left: 50px;
+    float:left;
+    border:1px inset white;
+}
+
+
+.holiday5
+{
+    color:wheat;
+    height:540px;
+    width: 100%;
+    
+  display: flex;
+  overflow-x: auto;
+    border:1px inset white;
+}
+.insideholiday8
+{width:20%;
+  flex-shrink: 0;
+  color:white;
+    border-radius:10px;
+    overflow: hidden;
+    margin-top: 30px;
+    height: 470px;
+    border-radius: 10px;
+    margin-left: 50px;
+    float:left;
+    border:1px inset white;
+}
+
