@@ -1,0 +1,57 @@
+
+.content{
+    width: 100%;
+    height:auto;
+    background-color:black;
+}
+
+
+.firsttitle{
+    width: 20%;
+    height: 50px;
+    color:black;
+    padding-left: 10%;
+}
+.xplorespic{
+    width: 90%;
+    margin: 5%;
+    height:1500px;
+}
+
+.imagexplore{
+    float: left;
+    width:25%;
+    margin-left: 6%;
+    height:460px;
+/*    border:1px inset white;*/
+    color:white;
+}
+.image{
+    height:200px; 
+    width:100%;
+    transition: transfrom;
+    overflow: hidden;
+    border:1px solid white;
+}
+.fx{
+                width:100%; height:400px; background-color:black; overflow: hidden;
+            }
+            .box{border-radius: 20px;
+                width:400px; height:400px; float: left;
+                background-color:black; margin-left: 5%;
+            }
+            .imagehalf{border-radius: 20px;
+                width:100%; height:200px;
+            }
+.offerwin
+{
+    width: 100%;
+    height:400px;
+    border: 1px inset red;
+/*    background-color:yellow;*/
+/*    margin-top: 320px;*/
+}
+.footer
+{
+    margin-top:-50px;
+}
