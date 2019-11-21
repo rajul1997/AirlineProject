@@ -1,0 +1,173 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*Top Header*/
+.Top
+{
+    position: fixed;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+  border: 0.5px inset black;  
+  background-color: blue;
+  background-image: linear-gradient(purple,black);
+}
+.logo
+{
+    width: 40%;
+    height:100px;
+    
+}
+/*Top right side menu*/
+.Register{
+    height: 100px;
+    margin-top:-120px;
+	list-style-type: none;
+       
+}
+.Registermenu{
+        float: right;        
+        width: 14%;
+}
+.Registermenu a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5vw;
+
+}
+.Registermenu a:hover {
+    color:wheat;
+        font-size: 2vw;
+}
+.Registermenu1{
+        float: right;
+        width: 12%;
+}
+.Registermenu1 a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5vw;
+}
+.Registermenu1 a:hover{
+    color:wheat;
+    font-size: 1.8vw;
+}
+.Registermenu2{
+        float: right;
+        width: 18%;
+}
+.Registermenu2 a {
+    display: block;
+    padding:  8px 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5vw;
+}
+.Registermenu2 a:hover{
+    color:wheat;
+    font-size: 1.8vw;
+}
+.Registermenu3 a{
+    width: 12%;
+    display:block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color:whitesmoke;
+    float:right;
+    font-size: 1.5vw;
+}
+
+.Registermenu3 a:hover{
+    color:wheat;
+    font-size: 2vw;
+}
+.images
+{
+    width:90%;
+    height:500px;
+    margin:5%;
+    
+}
+.heading{
+    margin-top: -550px;
+    width:100%;
+    height:100px;
+    font-size: 5vw;
+    color:white;
+    background-color:transparent;
+    z-index: 1;
+    text-align: center;
+}
+.fullimage{
+    width:90%;
+    height:400px;
+    margin: 5%;
+    float:left;
+    overflow:hidden;
+    z-index: -1;
+}
+.imagelu{
+    height:400px;
+    width:100%;
+}
+.imagelu>img{
+    margin-top: 5%;
+}
+
+.nameofpic{
+ position: absolute;
+    width:80%;
+    height:50px;
+    margin-top: -3.5%;
+    margin-left: 5%;
+    background-color:black;
+    border-radius: 20px;
+    color:white;
+    font-size: 1.5vw;
+    text-align: center;
+    border-bottom: 2px inset white;
+}
+.des{
+    display: none;
+    width:80%;
+    height:100px;
+    border-radius: 20px;
+    background-color:black;
+    color:white;
+    z-index: -1;
+    margin-left: 5%;
+}
+.fullimage:hover .nameofpic{
+    margin-top: -10.5%;
+    transition-duration: 2s;
+}
+.fullimage:hover .des{
+    margin-top: -7%;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    transition-duration: 4s;
+}
+.bottomluxory{
+    width:100%;
+    height:500px;
+    margin-top: 1200px;
+    overflow:hidden;
+    border:1px inset white;
+}
+.fx{
+                width:100%; height:400px; background-color:black; overflow: hidden;
+            }
+            .box{border-radius: 20px;
+                width:400px; height:400px; float: left;
+                background-color:black; margin-left: 5%;
+            }
+            .imagehalf{border-radius: 20px;
+                width:100%; height:200px;
+            }
