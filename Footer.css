@@ -1,0 +1,153 @@
+.last
+{
+    width: 100%;
+    height: 330px;
+    background-color:teal;
+    color:white;
+}
+.last1
+{
+    height: 100px;
+    width: 90%;
+    margin-top: 10px;
+}
+.last1 p{
+    margin-left: 60px;
+}
+.last2
+{
+    height: 50px;
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 350px;
+}
+.fmenu
+{
+    list-style-type: none;
+}
+.insidemenu
+{
+    float:left;
+    width: 15%;
+}
+.insidemenu a{
+    text-decoration: none;
+    display:block;
+    color:pink;
+    
+}
+.insidemenu a:hover
+{
+    color: pink;
+}
+.last3
+{
+    height: 30px;
+    width: 30%;
+   
+    margin-top: 5px;
+    
+    
+    
+}
+.last4
+{
+    height: 30px;
+    width: 50%;
+    
+    margin-left: 31%;
+    margin-top: -35px;
+    float: right;
+    
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    background-color: navy;
+    float: left;
+    margin-left: 500px;
+}
+.icon i{
+    font-size: 15px;
+    float: left;
+    margin-left: 7px;
+    margin-top: 7px;
+    
+}
+.icon1{
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    background-color: navy;
+    float: left;
+    margin-left: 5px;
+}
+.icon1 i{
+    font-size: 15px;
+    float: left;
+    margin-left: 9px;
+    margin-top: 8px;
+}  
+.icon2{
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    background-image: linear-gradient(blue,red,yellow);
+    float: left;
+    margin-left: 5px;
+}
+.icon2 i{
+    font-size: 15px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+} 
+.icon3{
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    background-color: blue;
+    float: left;
+    margin-left: 5px;
+   
+    
+}
+.icon3 i{
+    font-size: 15px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+    
+}
+.last5
+{
+    height: 40px;
+    width: 50%;
+    
+    margin-top: 5px;
+    margin-left: 500px;
+}
+.last5 p{
+  line-height: 10px;
+  
+}
+.icon4{
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    background-color: blue;
+    float: left;
+    margin-left: 5px;
+   
+    
+}
+.icon4 i{
+    font-size: 15px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+    
+}
+
+    
