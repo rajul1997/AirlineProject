@@ -1,0 +1,382 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*Top Header*/
+.Top
+{
+    z-index: 2;
+    position: fixed;
+  height: 100px;
+  width: 100%;
+  border: 0.5px inset black;  
+  background-color: blue;
+  background-image: linear-gradient(blue,white);
+}
+.logo
+{
+    width: 30%;
+    height:100px;
+    
+}
+/*Top right side menu*/
+.Register{
+   
+    height: 100px;
+	list-style-type: none;
+        margin-top: -120px;
+        
+}
+.Registermenu{
+        float: right;        
+        width: 15%;
+}
+.Registermenu a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.Registermenu a:hover {
+    color:wheat;
+}
+.Registermenu1{
+        float: right;
+        width: 10%;
+}
+.Registermenu1 a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.Registermenu1 a:hover{
+    color:wheat;
+}
+.Registermenu2{
+        float: right;
+        width: 17%;
+}
+.Registermenu2 a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.Registermenu2 a:hover{
+    color:wheat;
+}
+.Registermenu3 a{
+    width: 12%;
+    display:block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color:whitesmoke;
+    float:right;
+}
+
+.Registermenu3 a:hover{
+    color:wheat;
+}
+.accdrop
+{   
+    list-style: none;
+    margin-left: -25px;
+    background-color: white;
+    margin-right: 10px;
+    border: 0.5px solid black;
+    margin-top: 28px;
+    display: none;
+}
+.accdrop1
+{
+    height: 50px;
+    width: 100%;
+}
+.accdrop1 a
+{
+    text-decoration: none;
+}
+.Registermenu3:hover .accdrop
+{
+    display: block;
+}
+.mySlides
+{
+    display: none;
+    
+}
+.pagesmenu{
+    z-index: 2;
+    position:fixed;
+    width: 60%;
+    margin-left: 40%;
+    height:50px;
+    background-color: black;
+    margin-top: -585px;
+}
+.topmenus{
+    height: 100px;
+	list-style-type: none;
+        margin-top: 0px;
+}
+.topmenu{
+        float: left;  
+        width: 20%;
+}
+.topmenu a {
+    display: block;
+    padding:  3px 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+  
+}
+.topmenu a:hover {
+    color:wheat;
+    font-size:12px;
+}
+.tablesearch{
+    position: absolute;
+    width:82%;
+    height:150px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    margin-top: -250px;
+    margin-left: 10%;
+    border-radius:20px;
+    
+}
+.tablesearch p{
+    font-size: 15px;
+    margin-top: 0px;
+}
+.oneway
+{
+    height:40px;
+    width: 10%;
+    border-radius:20px; 
+    background-color: black;
+    border: 2px inset white;
+    margin-left: 10px;
+    margin-top: -3px;
+    float: left;
+    text-align: center;
+    line-height: -20px;
+    color:white;
+}
+.round
+{
+    height:40px;
+    width: 14%;
+    border-radius:20px; 
+    background-color: black;
+    border: 2px inset white;
+    margin-left: 20px;
+    margin-top: -3px;
+    float: left;
+    text-align: center;
+    color:white;
+}
+
+/*.tablesearch i
+{
+    float: right;
+}*/
+.Search
+{
+  width: 50px;
+  height: 50px;
+  border: solid;
+  padding: 15px;
+  background-color: grey;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+.search p
+{
+    padding-top: 16px;
+    
+}
+.tablesearch input{
+    width: 160px;
+    height:45px;
+    border-radius: 10px;
+    
+}
+.tablesearch #icon
+{
+    margin-left: -20px;
+}
+.adult
+{
+    position: absolute;
+    height: 300px;
+    width: 22%;
+    border-radius: 10px;
+    border:solid;
+    float:right;
+    display: none;
+    background-color: wheat;
+   right: 3%;
+   margin-top: 45px;
+     z-index: 3;
+    
+}
+.adult1
+{
+    height: 50px;
+    width: 100%;
+   
+    border: 1px inset black;
+    border-radius: 10px;
+    background-color: wheat;
+}
+.adult1 h4
+{
+    float: left;
+    color:black;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.incre 
+{
+  height: 15px;
+  width: 15px;
+  border:solid;
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+.decre 
+{
+  height: 15px;
+  width: 15px;
+  border:solid;
+  float: right;
+  margin-right: -40px;
+  margin-top: 15px;
+}
+.incre p
+{
+    font-size:10px;
+}
+
+#minus
+{
+    float:right;
+    padding-top:2px;
+    margin-right:2px;
+}
+#plus
+{
+    float:left;
+    padding-top:3px;
+    margin-left: 3px;
+}
+.decre p
+{
+    font-size:12px;
+}
+.child
+{
+    height: 50px;
+    width: 100%;
+    border: 1px inset black;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+
+.incre2{
+    height: 15px;
+  width: 15px;
+  border:solid;
+  float: right;
+  margin-right: 42px;
+  margin-top: -45px;
+}
+.incre2 p{
+    font-size: 10px;
+}
+.decre2{
+    height: 15px;
+  width: 15px;
+  border:solid;
+  float: right;
+  margin-top: -45px;
+  margin-right: 25px;
+}
+
+.decre2 p{
+    font-size: 10px;
+}
+.infant
+{
+ 
+
+    height: 50px;
+    width: 100%;
+    border: 1px inset black;
+    border-radius: 10px;
+    background-color: wheat;  
+}
+#count2{
+    margin-left: 5%;
+}
+#count1{
+    margin-left: 5%;
+}
+.incre3{
+    height: 15px;
+  width: 15px;
+  border:solid;
+  float: right;
+  margin-right: 42px;
+  margin-top: -45px;
+}
+.incre3 p{
+    font-size: 10px;
+}
+.decre3{
+    height: 15px;
+  width: 15px;
+  border:solid;
+  float: right;
+  margin-top: -45px;
+  margin-right: 25px;
+}
+
+.decre3 p{
+    font-size: 10px;
+}
+.econ{
+    height: 130px;
+    width: 100%;
+    border: 1px inset black;
+    border-radius: 10px;
+    background-color: wheat;
+    
+}
+.adult1 input
+{
+    width: 20px;
+    height: 20px;
+}
+.child input{
+    width: 20px;
+    height: 20px;
+}
+.infant input
+{
+   width: 20px;
+    height: 20px; 
+}
+
+/*#icon:hover .adult{
+    display: block;
+}*/
