@@ -1,0 +1,210 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*Top Header*/
+.Top
+{
+    position: fixed;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+  border: 0.5px inset black;  
+  background-color: blue;
+  background-image: linear-gradient(blue,white);
+}
+.logo
+{
+    width: 30%;
+    height:100px;
+    
+}
+/*Top right side menu*/
+.Register{
+    height: 100px;
+    margin-top:-120px;
+	list-style-type: none;
+       
+}
+.Registermenu{
+        float: right;        
+        width: 12%;
+}
+.Registermenu a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+.Registermenu a:hover {
+    color:wheat;
+        font-size: 22px;
+}
+.Registermenu1{
+        float: right;
+        width: 8%;
+}
+.Registermenu1 a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.Registermenu1 a:hover{
+    color:wheat;
+    font-size: 22px;
+}
+.Registermenu2{
+        float: right;
+        width: 12%;
+}
+.Registermenu2 a {
+    display: block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.Registermenu2 a:hover{
+    color:wheat;
+    font-size: 22px;
+}
+.Registermenu3 a{
+    width: 10%;
+    display:block;
+    padding:  8px 10px;
+    text-decoration: none;
+    color:whitesmoke;
+    float:right;
+    font-size: 20px;
+}
+
+.Registermenu3 a:hover{
+    color:wheat;
+    font-size: 22px;
+}
+.pagesmenu{
+    position:fixed;
+    width: 60%;
+    margin-left: 40%;
+    height:50px;
+    z-index: 1;
+    background-color: black;
+    margin-top:80px;
+}
+.topmenus{
+    height: 100px;
+	list-style-type: none;
+        margin-top: 0px;
+}
+.topmenu{
+        float: left;  
+        width: 20%;
+}
+.topmenu a {
+    display: block;
+    padding:  3px 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 23px;
+}
+.topmenu a:hover {
+    color:wheat;
+    font-size:32px;
+}
+/*.Profileback
+{
+    width: 100%;
+    height:auto;
+    background-image: url("../images/DAPORIJO.jpg");
+}*/
+.profiledetail{
+    width: 100%;
+    height:auto;
+    border: solid black;
+    margin-left:20px;
+    padding-left: 40px;
+}
+.profiletitle{
+    width: 50%;
+    height:50px;
+   position: absolute;
+    margin-top: 120px;
+}
+.profiletitle h2{
+    padding-left: 59px;
+}
+
+.pic{
+    position: absolute;
+    width: 25%;
+    height:180px;
+    margin-top:230px;
+    margin-left: 50px;
+    align-items: center;
+}
+.pic p{
+    margin-top: 0px;
+    padding-left: 30px;
+}
+.pichint{
+    position: absolute;
+    width:30%;
+    height:80px;
+    margin-top:430px;
+    padding-left: 30px;
+}
+.createacc{
+    position: absolute;
+    margin-top:250px;
+    width: 35%;
+    margin-left: 30%;
+    height:450px;
+}
+.createacc input{
+    width:100%;
+    height:30px;
+    margin-left: 30px;
+}
+.Recentbooking{
+    position:absolute;
+    width:100%;
+    height:300px;
+    margin-top: 750px;
+    overflow-style: scrollbar;
+    overflow: hidden;
+    border:0.5px solid black;
+  
+}
+.Recentbooking h2{
+    padding-left: 20px;
+}
+
+.priviousbooking{
+    position:absolute;
+    width:100%;
+    height:300px;
+    margin-top: 1050px;
+    overflow: hidden;
+     border: 0.5px solid black;
+}
+.priviousbooking h2{
+    padding-left: 20px;
+}
+
+.cancle{
+    position: absolute;
+    width:100%;
+    height:300px;
+    margin-top: 1350px;
+    overflow: hidden;
+    border: 0.5px solid black;
+}
+.cancle h2{
+    padding-left: 20px;
+}
